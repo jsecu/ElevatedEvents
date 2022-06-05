@@ -1,0 +1,18 @@
+﻿  ElevatedEvents.c
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(178,38): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(179,43): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(180,41): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(213,39): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(219,46): warning C4244: '=': conversion from 'DWORD' to 'unsigned char', possible loss of data
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(221,46): warning C4244: '=': conversion from 'DWORD' to 'unsigned char', possible loss of data
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(269,49): warning C4133: 'function': incompatible types - from 'char [256]' to 'LPCWSTR'
+C:\Users\Zzz\Documents\C\UACEventViewer\ElevatedEvents.c(150,43): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+  ReflectiveLoader.c
+C:\Users\Zzz\Documents\C\UACEventViewer\ReflectiveLoader.c(116,57): warning C4013: '_MoveFromCoprocessor' undefined; assuming extern returning int
+C:\Users\Zzz\Documents\C\UACEventViewer\ReflectiveLoader.c(116,75): warning C4312: 'type cast': conversion from 'int' to 'BYTE *' of greater size
+  Generating Code...
+ReflectiveLoader.obj : error LNK2005: DllMain already defined in ElevatedEvents.obj
+     Creating library C:\Users\Zzz\source\repos\ElevatedEvents\x64\Debug\ElevatedEvents.lib and object C:\Users\Zzz\source\repos\ElevatedEvents\x64\Debug\ElevatedEvents.exp
+ReflectiveLoader.obj : error LNK2019: unresolved external symbol _MoveFromCoprocessor referenced in function ReflectiveLoader
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\Debug\ElevatedEvents.exe : fatal error LNK1120: 2 unresolved externals

@@ -1,0 +1,17 @@
+﻿  ElevatedEvents.c
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(177,38): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(178,43): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(179,41): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(212,39): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(218,46): warning C4244: '=': conversion from 'DWORD' to 'unsigned char', possible loss of data
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(220,46): warning C4244: '=': conversion from 'DWORD' to 'unsigned char', possible loss of data
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(268,49): warning C4133: 'function': incompatible types - from 'char [256]' to 'LPCWSTR'
+C:\Users\Zzz\source\repos\ElevatedEvents\x64\ElevatedEvents.c(149,43): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+  ReflectiveLoader.c
+     Creating library C:\Users\Zzz\source\repos\ElevatedEvents\x64\Release\ElevatedEvents.lib and object C:\Users\Zzz\source\repos\ElevatedEvents\x64\Release\ElevatedEvents.exp
+  Generating code
+  5 of 8 functions (62.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ElevatedEvents.vcxproj -> C:\Users\Zzz\source\repos\ElevatedEvents\x64\Release\ElevatedEvents.dll
