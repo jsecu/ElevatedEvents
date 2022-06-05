@@ -16,8 +16,9 @@ OPSEC Warning
 
 Credits:
 
-@OrangeTsai-https://twitter.com/orange_8361/status/1518970259868626944
-ysoserial - https://github.com/pwntester/ysoserial.net
+- @OrangeTsai-https://twitter.com/orange_8361/status/1518970259868626944
+
+- ysoserial-https://github.com/pwntester/ysoserial.net
 
 
 
