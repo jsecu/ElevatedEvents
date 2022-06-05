@@ -2,7 +2,8 @@
 
 EventViewer UAC bypass via .NET Deserialization discovered by @OrangeTsai made into a Reflective DLL to use with Cobalt Strike.
 
-https://user-images.githubusercontent.com/55005881/172065672-1b9ba7e1-6e15-47a8-bb20-ca98353161e3.mp4
+
+https://user-images.githubusercontent.com/55005881/172065755-458f2e01-2867-4d3a-8efd-1304531ab4fb.mp4
 
 - Supports direct execution of executables, and doesn't rely on spawning mmc.exe through cmd.exe as shown in the original POC. However due to this command agruements are not supported.
 
