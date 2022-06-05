@@ -1,6 +1,6 @@
 beacon_command_register("ElevatedEvents", "Utilizes Code Execution via .NET Deserialization in EventViewer to produce a elevated token as a Administrative user\n");
 
-alias UACEventViewer{
+alias ElevatedEvents{
         
         btask($1, "ElevatedEvents: Yet Another Event Viewer UAC Bypass via Reflective Dll @Josh Fam");
 	$params = substr($0, 11);
