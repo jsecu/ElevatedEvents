@@ -14,6 +14,9 @@ OPSEC Warning
 
 - Event Viewer will briefly flash on the victim's screen before being terminated.
 
+Compilation
+- For learning how to compile reflective dlls in Visual Studio: https://ijustwannared.team/2018/02/13/reflective-dlls-and-you/
+
 Credits:
 
 - @OrangeTsai-https://twitter.com/orange_8361/status/1518970259868626944
