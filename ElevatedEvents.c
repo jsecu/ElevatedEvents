@@ -210,8 +210,6 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
                     DWORD defoffset1 = 0x7A;
                     DWORD defoffset2 = 0x9C;
                     for (int i = 1; i <= cmdSize; i++) {
-                        if (i == 1) {
-                        }
                         if (i == 80) {
                             defoffset1++;
                         }
