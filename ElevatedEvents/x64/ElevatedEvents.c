@@ -265,7 +265,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
                         goto cleanup;
                     }
                     if (WaitForSingleObject(shellinfo.hProcess, INFINITE) == WAIT_OBJECT_0) {
-                        if (!DeleteFile(appdata2)) {
+                        if (!DeleteFileA(appdata2)) {
                             printf("DeleteFile Failed with %d\n", GetLastError());
                             goto cleanup;
                         }
