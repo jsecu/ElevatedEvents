@@ -13,7 +13,6 @@ https://user-images.githubusercontent.com/55005881/172065755-458f2e01-2867-4d3a-
 OPSEC Warning
 
 - Event Viewer will briefly flash on the victim's screen before being terminated.(Currently working on a way to avoid this behavior)
-- When running this UAC Bypass on a user account that hasn't run Event Viewer before, you may need to run the tool twice. The first time will run Event Viewer for you and the second time will allow Event Viewer to deserialize the RecentViews file.
 
 Compilation
 - For learning how to compile reflective dlls in Visual Studio: https://ijustwannared.team/2018/02/13/reflective-dlls-and-you/
